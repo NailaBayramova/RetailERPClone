@@ -1,12 +1,53 @@
 <Solution>
-  <Folder Name="/Core/">
-    <Project Path="RetailERP.Application/RetailERP.Application.csproj" />
-    <Project Path="RetailERP.Domain/RetailERP.Domain.csproj" />
+  <Folder Name="/Application/" />
+  <Folder Name="/Domain/" />
+  <Folder Name="/Domain/Common/">
+    <File Path="RetailERP.Domain/Common/BaseEntity.cs" />
+  </Folder>
+  <Folder Name="/Domain/Entities/">
+    <File Path="RetailERP.Domain/Entities/BonusRule.cs" />
+    <File Path="RetailERP.Domain/Entities/Branch.cs" />
+    <File Path="RetailERP.Domain/Entities/BranchInventory.cs" />
+    <File Path="RetailERP.Domain/Entities/Brand.cs" />
+    <File Path="RetailERP.Domain/Entities/Employee.cs" />
+    <File Path="RetailERP.Domain/Entities/EmployeeTransfer.cs" />
+    <File Path="RetailERP.Domain/Entities/InventoryTransaction.cs" />
+    <File Path="RetailERP.Domain/Entities/Position.cs" />
+    <File Path="RetailERP.Domain/Entities/Product.cs" />
+    <File Path="RetailERP.Domain/Entities/ProductVariant.cs" />
+    <File Path="RetailERP.Domain/Entities/Sale.cs" />
+    <File Path="RetailERP.Domain/Entities/SaleItem.cs" />
+    <File Path="RetailERP.Domain/Entities/SubCompany.cs" />
+  </Folder>
+  <Folder Name="/Domain/Enums/">
+    <File Path="RetailERP.Domain/Enums/BonusScope.cs" />
+    <File Path="RetailERP.Domain/Enums/BonusType.cs" />
+    <File Path="RetailERP.Domain/Enums/InventoryTransactionType.cs" />
+    <File Path="RetailERP.Domain/Enums/PaymentMethod.cs" />
   </Folder>
   <Folder Name="/Infrastructure/">
     <Project Path="RetailERP.Infrastructure/RetailERP.Infrastructure.csproj" />
     <Project Path="RetailERP.Persistence/RetailERP.Persistence.csproj" />
   </Folder>
+  <Folder Name="/Persistance/" />
+  <Folder Name="/Persistance/Configuration/">
+    <File Path="RetailERP.Persistence/Configurations/BonusRuleConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/BranchConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/BranchInventoryConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/BrandConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/EmployeeConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/InventoryTransactionConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/PositionConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/ProductConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/ProductVariantConfiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/SaleCofiguration.cs" />
+    <File Path="RetailERP.Persistence/Configurations/SaleİtemConfiguration.cs" />
+  </Folder>
+  <Folder Name="/Persistance/Context/" />
+  <Folder Name="/Persistance/Extensions/" />
+  <Folder Name="/Persistance/Repositories/" />
+  <Folder Name="/Persistance/Repositories/Read_Common/" />
+  <Folder Name="/Persistance/Repositories/Write_Common/" />
   <Folder Name="/Presentation/">
     <Project Path="RetailERP.API/RetailERP.API.csproj" />
   </Folder>
